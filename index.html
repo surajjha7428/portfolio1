@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c65048575b.js" crossorigin="anonymous"></script>
+</head>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<body>
+ 
+
+        <nav id="navbar">
+    
+            <h2 class="name" style="align-items: center;" ><span>S</span>uraj Jha</h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+
+    
+    <div id="header">
+        <div class="container">
+            
+            <div class="header-text">
+                <p>Hi'👋' my name is</p>
+                <h3>Suraj Jha</h3>
+                 <h4>And i'm <span class="frontend">Frontend Developer 🧑‍💻</span></h4>
+            </div>
+            
+            <a id="Resume" href="/image/resume.pdf" download class="btn btn2"> Download Resume</a>
+        </div>
+         <div class="img">
+           
+        </div> 
+    </div>
+    <!---------------------about----------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/image/WhatsApp Image 2023-12-06 at 04.03.24.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3>I'm Suraj Jha and I'm a programer</h3>
+                    <p> I am studying now in a Masai School Full stack Wed Development
+                    Course. During my learning. I am Fascinate by the way Code gets execute and The way we can make web applications. This
+                    exposure excited me and I am keen to build a career in coding. Before that I completed 12th in 2022 and  I aslo
+                    completed  the 1 year of  photography intenship after that  now I am pursuing my graduation with B.com And I took the admission in Masai School.
+                    My hobbies playing E-sports, watch Anime, read Books  and Listening music.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills',event)">Skills</p>
+                        <!-- <p class="tab-links">Experience</p> -->
+                        <p class="tab-links"  onclick="opentab('education',event)">Education</p>
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Frontend web Developer</li>
+                            <li><span>UI/UX</span><br>Designing Web/And Templates</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Done My High School at Govt Boys Senior Secondary School</li>
+                            <li> <span>Current</span> <br>In 2nd year pursuing my graduation</li>
+                            <li><span>2023 - Running</span> <br>Pursuing Full stack Development Couse at Masai School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <<//-----------------------------services--------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My SKills</h1>
+            <h2>Technical skills</h2>
+            <div class="services-list">
+                
+                <!-- <div>
+                    <h1>Technical Skills</h1>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus id nobis expedita et, fugit exercitationem, fuga vel amet molestias deserunt culpa consectetur temporibus alias pariatur quam accusamus nulla earum modi.</p>
+                    <a href="#">Learn more</a>
+                </div> -->
+                <div class="icon">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="">
+                    
+                </div>
+                
+                <div class="icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png" alt="">
+
+                </div>
+                <div class="icon">
+                    <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640" alt="">
+
+                </div>
+                <div class="icon">
+                    <img src="https://images.ctfassets.net/ooa29xqb8tix/sHolxYPkMQO1gT5u6Aycp/bea05ce2b4fa806b7ede7a9d9dc16375/UXlogo.png?w=400&q=50?fm=jpg&q=50" alt="">
+                    
+                </div>
+
+               
+                <!-- <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+                </div>
+                <div class="icon">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png"
+                        alt="">
+                </div>
+                <div class="icon">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png" alt="">
+                </div> -->
+                
+                <!-- <div>
+                    <h1>Profssional Skills</h1>
+                    <h2>UI\UX Designing</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus id nobis expedita et, fugit exercitationem, fuga
+                        vel amet molestias deserunt culpa consectetur temporibus alias pariatur quam accusamus nulla earum modi.</p>
+                    <a href="#">Learn more</a>
+                </div> -->
+
+            </div>
+        
+            <div class="container  tool">
+                <h2>Tools I know</h2>
+                <div class="services-list">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+                </div>
+                <div class="icon">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png"
+                        alt="">
+                </div>
+                <div class="icon">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png" alt="">
+                </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
+    
+
+    
+    <!-- -----------------------------portfolio----------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src= " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKk12bHqulZLj9sjzFQNw0EqmVsBrPlbvVxA&usqp=CAU" alt=""  >
+                    <div class= "layer">
+                        <h3>clone of wrike</h3>
+                        <p>Customers enjoy how Wrike lets them create natural workflows and manage their projects effectively</p>
+                          <h4> <a href="https://github.com/surajjha7428/wrik-assignment/tree/master/Wrike">Git Repo</a></h4>
+                           <h4> <a href="https://wrik-assignment-gvron140i-suraj-s-projects.vercel.app/">Live Site</a></h4>
+                    </div>
+                </div>
+                <div class="work">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwAR8jPXVtsX1N-kbtD6_3PpvKt1rglwBquw&usqp=CAU" alt="">
+                   <div class="layer">
+                    <h3>Super-Hero-Resume</h3>
+                    <p>super-hero skills , speacial power and etc..</p>
+                    <!-- <h4> <a href="https://surajjha7428.github.io/Super-hero/">🔗</a></h4> -->
+                    
+                    <h4> <a href="https://github.com/surajjha7428/Super-hero">Git Repo</a></h4>
+                    <h4> <a href="https://surajjha7428.github.io/Super-hero/">Live Site</a></h4>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnrVfEHRx351DUA4ROE8L7YlcSzISQqPrE0odJZ-CTYIic9MArQ62Bb2TupXTfNLe_e-w&usqp=CAU" alt="">
+                    <div class="layer">
+                    <h3>Stone-paper-sessior Game</h3>
+                    <p>Play this game</p>
+                   
+                    
+                   <!-- <a href="https://github.com/surajjha7428/ROCK-GAME">Git Repo</a> &nbsp; <a href="https://surajjha7428.github.io/ROCK-GAME/">Live Site</a> -->
+                    
+                    
+                    <h4> <a href="https://github.com/surajjha7428/ROCK-GAME">Git Repo</a></h4>
+                    <h4> <a href="https://surajjha7428.github.io/ROCK-GAME/">Live Site</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------------------contact--------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i><a href  ="mailto:sjha74280@gmail.com">sjha74280@gmail.com</a></p>
+                    <p> <i class="fa-solid fa-phone"></i>7428032210</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100040579506021"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/surajjha9560/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/suraj-jha-%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB-627a04280/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a id="Resume" href="./resume.pdf" download class="btn btn2"> Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea >
+                            <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
